@@ -187,7 +187,7 @@ const leaksData = [
       en: "DragonForce ransomware attack",
       bg: "Атака с DragonForce ransomware"
     },
-    source: "http://dragonforxxbp3awc7mzs5dkswrua3znqyx5roefmi4smjrsdi22xwqd.onion/eld.bg/",
+    source: "https://dragonforxxbp3awc7mzs5dkswrua3znqyx5roefmi4smjrsdi22xwqd.onion/eld.bg/",
     images: ["images/eld.png"],
     
   },
@@ -199,7 +199,7 @@ const leaksData = [
       en: "LockBit ransomware attack on investment company",
       bg: "LockBit ransomware атака"
     },
-    source: "http://lockbit7z355oalq4hiy5p7de64l6rsqutwlvydqje56uvevcc57r6qd.onion/en.mkb.bg/",
+    source: "https://lockbit7z355oalq4hiy5p7de64l6rsqutwlvydqje56uvevcc57r6qd.onion/en.mkb.bg/",
     images: ["images/mkb.png"],
     
   },
