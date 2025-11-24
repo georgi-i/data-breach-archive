@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulgarian Data Leaks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1 class="glitch" data-text="DATA BREACH ARCHIVE">DATA BREACH ARCHIVE</h1>
+                <p class="subtitle" data-lang-en="Bulgarian Organizations PII Leaks" data-lang-bg="Изтичане на лични идентификационни данни от български организации">Bulgarian Organizations PII Leaks</p>
+                <p class="subtitle" data-lang-en="Created by AI model anthropic/claude-sonnet-4.5" data-lang-bg="Създадено с модел на изкуствен интелект anthropic/claude-sonnet-4.5">Created by AI model anthropic/claude-sonnet-4.5</p>
+            </div>
+            <div class="language-toggle">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="bg">БГ</button>
+            </div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="total-leaks">0</span>
+                <span class="stat-label" data-lang-en="Total Breaches" data-lang-bg="Общо пробиви">Total Breaches</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="public-leaks">0</span>
+                <span class="stat-label" data-lang-en="Public Sector" data-lang-bg="Публичен сектор">Public Sector</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="private-leaks">0</span>
+                <span class="stat-label" data-lang-en="Private Sector" data-lang-bg="Частен сектор">Private Sector</span>
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search organizations..." data-lang-en-placeholder="Search organizations..." data-lang-bg-placeholder="Търсене на организации...">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all" data-lang-en="All" data-lang-bg="Всички">All</button>
+                <button class="filter-btn" data-filter="public" data-lang-en="Public" data-lang-bg="Публични">Public</button>
+                <button class="filter-btn" data-filter="private" data-lang-en="Private" data-lang-bg="Частни">Private</button>
+            </div>
+        </div>
+
+        <div class="leaks-grid" id="leaks-container">
+            <!-- Leak cards will be dynamically inserted here -->
+        </div>
+
+        <footer>
+            <p data-lang-en="Legal Disclaimer: This website does not engage in the acquisition, exfiltration, downloading, possession, hosting, access, consultation, redistribution, or disclosure of unlawfully obtained data. This platform indexes only publicly visible information posted by ransomware operators and open web sources without accessing or obtaining the underlying stolen content. The service is provided to support public awareness, legitimate research, and cyber-resilience. No stolen personal or confidential data is collected or distributed via this site." data-lang-bg="Legal Disclaimer: Администрацията на уебсайта не участва в придобиването, извличането, изтеглянето, притежанието, хостването, достъпа, консултирането, препредаването или разкриването на незаконно придобити данни. Тази платформа индексира само публично видима информация, публикувана от оператори на рансъмуер и открити уеб източници без достъп или придобиване на основното откраднато съдържание. Услугата се предоставя с цел подкрепа на обществената информираност, легитимните изследвания и киберустойчивостта. Не се събира или разпространява открадната лична или конфиденциална информация чрез този сайт.">Legal Disclaimer: This website does not engage in the acquisition, exfiltration, downloading, possession, hosting, access, consultation, redistribution, or disclosure of unlawfully obtained data. This platform indexes only publicly visible information posted by ransomware operators and open web sources without accessing or obtaining the underlying stolen content. The service is provided to support public awareness, legitimate research, and cyber-resilience. No stolen personal or confidential data is collected or distributed via this site.</p>
+        </footer>
+    </div>
+
+    <!-- Modal for full image view -->
+    <div class="modal" id="image-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modal-image" src="" alt="Leak Evidence">
+            <div class="modal-nav">
+                <button class="modal-nav-btn" id="prev-img">&#8249;</button>
+                <button class="modal-nav-btn" id="next-img">&#8250;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
