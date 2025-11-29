@@ -58,3 +58,4 @@ Legal Disclaimer: This website does not engage in the acquisition, exfiltration,
 | intrama-bg.com             | Manufacturing company - Stormous ransomware attack    | https://www.ransomware.live/id/aW50cmFtYS1iZ0BzdG9ybW91cw==              |
 | Regas Energy (regasenergy.com)| Energy sector company - Monti ransomware attack       | https://www.ransomware.live/id/UmVnYXMgKHJlZ2FzZW5lcmd5LmNvbSlAbW9udGk=  |
 | GERB Political Party (gerb.bg) | Political party - LockBit3 ransomware attack           | https://www.ransomware.live/id/Z2VyYi5iZ0Bsb2NrYml0Mw==                  |
+| varnabroker.com | Bulgarian insurance company           | https://leakbase.la/threads/varnabroker-com.877/                 |
