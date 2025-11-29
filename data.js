@@ -513,6 +513,16 @@ const leaksData = [
     },
     source: "https://www.ransomware.live/id/Z2VyYi5iZ0Bsb2NrYml0Mw==",
     images: [],
-    
+  },
+  {
+    id: 44,
+    organization: "varnabroker.com",
+    type: "private",
+    description: {
+      en: "Bulgarian insurance company",
+      bg: "Българска компания за застраховки"
+    },
+    source: "https://leakbase.la/threads/varnabroker-com.877/",
+    images: ["images/varnabroker.png"],
   }
 ];
