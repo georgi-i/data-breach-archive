@@ -1,0 +1,22 @@
+# robots.txt for bg-leaks.xyz
+# Allows all crawlers to access the site and JSON data
+
+User-agent: *
+Allow: /
+Allow: /breaches.json
+
+# Explicitly allow common search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap
+Sitemap: https://bg-leaks.xyz/sitemap.xml
+
+# Crawl-delay (uncomment if you want to limit request rate)
+# Crawl-delay: 1
